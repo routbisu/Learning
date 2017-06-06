@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>GloboMart Product Browser</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="script.js"></script>
+    <style type="text/css">
+        body {
+            font-family: "Segoe UI", verdana, sans-serif;
+        }
+
+        .heading1 {
+            text-align: center;
+            font-size: 120%;
+            color: #0094ff;
+        }
+
+        button {
+            font-size: 80%;
+            border: 1px solid #0094ff;
+            padding: 6px;
+            background: #0094ff;
+            border-radius: 5px;
+            color: #FFF;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type=text], select {
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="heading1">GloboMart Retail</div>
+    <div>
+        <h3>Get Products</h3>
+        Select Product Type: 
+        <select id="txtProductTypeID">
+            <option value="Accessories">Accessories</option>
+            <option value="TopWear">Top Wear</option>
+            <option value="BottomWear">Bottom Wear</option>
+            <option value="FootWear">Foot Wear</option>
+        </select><br />
+        <button type="button" id="btnGetProducts">Get Products</button>
+        <br />
+        <div id="productsResult"></div>
+    </div>
+    <hr />
+    <div>
+        <h3>Add Product</h3>
+        Product Name : <input type="text" id="txtProductName" /><br /><br />
+        Select Product Type:
+        <select id="txtProductTypeIDAdd">
+            <option value="1">Accessories</option>
+            <option value="2">Top Wear</option>
+            <option value="3">Bottom Wear</option>
+            <option value="4">Foot Wear</option>
+        </select><br /><br />
+        Unit Price : <input type="text" id="txtUnitPrice" /><br /><br />
+        <button type="button" id="btnAddProduct">Add Products</button>
+        <br />
+        <div id="divAddResult"></div>
+    </div>
+    <hr />
+    <div>
+
+        <h3>Get Price</h3>
+        Enter Product ID : 
+        <input type="text" id="txtProductID" />
+        <button type="button" id="btnGetPrice">Get Price</button>
+        <br />
+        Price : <span id="spnPrice"></span>
+    </div>
+    <hr />
+</body>
+</html>

@@ -1,0 +1,9 @@
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\GloboMart.BusinessLogic.dll.config
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\GloboMart.BusinessLogic.dll
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\GloboMart.BusinessLogic.pdb
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\EntityFramework.dll
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\EntityFramework.xml
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\obj\Debug\GloboMart.BusinessLogic.dll
+c:\users\indiahiring\documents\visual studio 2013\Projects\GloboMartAPI\GloboMart.BusinessLogic\obj\Debug\GloboMart.BusinessLogic.pdb
