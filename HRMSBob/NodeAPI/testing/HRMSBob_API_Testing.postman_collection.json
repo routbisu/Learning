@@ -1,0 +1,43 @@
+{
+	"id": "ea30ccb2-b8d6-dca2-8a08-d32ce0d2bd3a",
+	"name": "HRMSBob_API_Testing",
+	"description": "Node API Testing for HRMS Bob",
+	"order": [
+		"eeab7437-56ba-6e93-96f3-7b8c3344ce56"
+	],
+	"folders": [],
+	"timestamp": 1496949186750,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "eeab7437-56ba-6e93-96f3-7b8c3344ce56",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/employees",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1496950339229,
+			"name": "Employees",
+			"description": "",
+			"collectionId": "ea30ccb2-b8d6-dca2-8a08-d32ce0d2bd3a",
+			"responses": [],
+			"rawModeData": "{\n\t\"Name\": \"Fullu Rout\",\n\t\"Contact\": \"9178692868\",\n\t\"DepartmentID\": \"1223\",\n\t\"ReportingTo\": 1001\n}"
+		}
+	]
+}
