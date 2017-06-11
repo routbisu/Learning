@@ -1,0 +1,20 @@
+{
+  "name": "angularui",
+  "description": "Angular UI for HRMS Learning",
+  "main": "index.html",
+  "authors": [
+    "Kanakdeepa Pradhan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/routbisu/Learning",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.1.4"
+  }
+}
