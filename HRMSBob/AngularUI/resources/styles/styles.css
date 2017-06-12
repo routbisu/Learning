@@ -1,0 +1,23 @@
+html {
+    font-family: "Roboto", "SegoeUI", sans-serif;
+}
+
+.menu-apps {
+    max-width: 320px;
+}
+
+.pad-box-10{
+    padding: 10px;
+}
+
+.pin-icons {
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+    margin: 2px;
+    border-radius: 4px;
+    height: 80px;
+    background-color: #ffffff;
+    color: #3f4e68;
+}
+

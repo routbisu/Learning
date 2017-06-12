@@ -1,24 +1,45 @@
 <html lang="en">
-    <head>
-        <title>HRMSBob home screen</title>
-        <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
-    </head>
-    <body ng-app="hrmsBob" ng-cloak>
 
+<head>
+    <title>HRMSBob home screen</title>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="resources/assets/roboto/roboto.css">
+    <link rel="stylesheet" href="resources/assets/material-icons/material-icons.css">
+    <link rel="stylesheet" href="resources/styles/styles.css">
+</head>
+
+<body ng-app="hrmsBob" ng-cloak>
+    <div>
         <md-toolbar>
             <div class="md-toolbar-tools">
+                <button class="md-button md-ink-ripple" type="button" id="step1" aria-label="Open phone interactions menu" ng-click="openMenu($mdOpenMenu, $event)"
+                    style="overflow:visible;min-width:0px;" title="Quick Links" aria-haspopup="true" aria-expanded="false" aria-owns="menu_container_389">
+                    <md-icon class="ng-scope material-icons">apps</md-icon>
+                <div class="md-ripple-container"></div></button>
                 <h2>HRMSBob - Employee Management System</h2>
             </div>
         </md-toolbar>
+        <div class="md-open-menu-container md-whiteframe-z2 md-active md-clickable" style="top: 53px; left: 8px;" aria-hidden="false">
+            <md-menu-content class="pad-box-10 menu-app" role="menu">
+                <div layout="row" class="layout-row">
+                    <md-menu-item flex="" class="pin-icons layout-column flex" layout="column" ui-sref="home" role="menuitem" href="/">
+                        <md-icon flex="" class="material-icons flex">home</md-icon>
+                        <p flex="" class="md-caption flex">Home</p>
+                    </md-menu-item>
+                </div>
+            </md-menu-content>
+        </div>
+    </div>
 
-        <!-- All JS Scripts -->
-        <script src="bower_components/angular/angular.js"></script>
-        <script src="bower_components/angular-material/angular-material.js"></script>        
-        <script src="bower_components/angular-animate/angular-animate.js"></script>
-        <script src="bower_components/angular-aria/angular-aria.js"></script>
-        <script src="bower_components/angular-messages/angular-messages.js"></script>
-        <script type="text/javascript">    
-            angular.module('hrmsBob', ['ngMaterial']);
-        </script>
-    </body>
+    <!-- All JS Scripts -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script type="text/javascript">
+        angular.module('hrmsBob', ['ngMaterial']);
+    </script>
+</body>
+
 </html>
