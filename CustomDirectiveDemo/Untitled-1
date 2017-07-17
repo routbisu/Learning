@@ -1,0 +1,50 @@
+<div class="form-group">
+    <label for="email">Username:</label>
+    <input type="email" class="form-control" ng-model="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" ng-model="pwd">
+  </div>
+  <button type="button" class="btn btn-default">Login</button>
+
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body ng-app="loginApp">
+    <!-- Inject all views here -->
+  <div ui-view>
+  </div>
+
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="<path to ui-router>"></script>  
+  <script src="app/app.js"></script>
+</body>
+</html>
+
+
+<!-- app.js -->
+var myApp = angular.module("loginApp", ['ui.router']);
+
+myApp.config(function ($stateProvider, $urlRouterProvider) {
+
+     $urlRouterProvider.when("", "/default_error");
+
+     $stateProvider
+        .state("login", {
+            url: "/login",
+            templateUrl: "views/login.html",
+            controller: 'loginController'
+        })
+        .state("home", {
+            url:"/home",
+            templateUrl: "views/home.html",
+            controller: 'homeController'
+        })
+});

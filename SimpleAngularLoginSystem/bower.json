@@ -1,0 +1,22 @@
+{
+  "name": "SimpleAngularLoginSystem",
+  "homepage": "https://github.com/routbisu/Learning",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Biswaranjan"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.5"
+  }
+}

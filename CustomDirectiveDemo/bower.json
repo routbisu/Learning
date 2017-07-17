@@ -1,0 +1,21 @@
+{
+  "name": "CustomDirectiveDemo",
+  "homepage": "https://github.com/routbisu/Learning",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Biswaranjan Rout"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5"
+  }
+}
