@@ -1,0 +1,16 @@
+{
+  "name": "mongotraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Biswaranjan Rout",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^4.1.0",
+    "mongoose": "^4.13.9",
+    "nodemon": "^1.14.11"
+  }
+}
